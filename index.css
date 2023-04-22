@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #000000;
+}
+.logo{
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+.logo + div a{
+    font-size: 2.6rem;
+    color:#000000;
+    text-decoration: none;
+}
+.logo +div{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+nav{
+    background-color:#FCAF02;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5.7rem;
+    position: sticky;
+}
+.intro{
+    color: #FFFFFF;
+    padding: 5.7rem;
+    display: flex;
+    flex-direction: row;
+}
+.heading{
+    font-size: 6.4rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+.description{
+    font-size: 2.8rem;
+}
+.intro img{
+    width: 69.7rem;
+    height: 48.2rem;
+}
+.intro > div >button{
+    font-weight: 700;
+    color: #000000;
+    background-color: #FCAF02;
+    font-size: 3.2rem;
+    margin-top: 5rem;
+    padding: 1rem 9rem;
+    border-radius: 3rem;
+}
+form{
+    padding: 2rem 5.7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+form p{
+    font-size: 6.4rem;
+    font-weight: 700;
+    color: #FCAF02;
+}
+form input{
+    color: #FCAF02;
+    background-color: #000000;
+    font-size: 2.8rem;
+    border: 1rem ;
+    border: 0.1rem solid #FCAF02;
+    border-radius: 4rem;
+    padding: 2rem 5rem;
+}
+::placeholder{
+    color: #FCAF02;
+}
+form > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+form > div input{
+    width: 57rem;
+}
+form + button{
+    font-size: 3.2rem;
+    font-weight: 700;
+    background-color: #FCAF02;
+    padding:2rem 5rem;
+    border-radius: 5rem;
+    margin: 4rem;
+    margin-left: 60rem;
+}
+
+table,th{
+    color: #FCAF02;
+    font-size: 2.8rem;
+    border: 0.2rem solid #FCAF02;
+    border-collapse: collapse;
+}
+table{
+    margin: 5rem 5.7rem;
+    width: auto;
+    text-align: left;
+}
+td{
+    border-right: 1px solid #FCAF02;
+}
+.r1{
+    padding: 2rem 5rem;
+}
+.r2{
+    padding: 2rem 5rem;
+    padding-right: 20rem;
+}
+.r3{
+    padding: 2rem 5rem;
+    padding-right: 34rem;
+}
+tfoot{
+    background-color: #FCAF02;
+    color: #000000;
+}
+tfoot .r1{
+    border-right: 0.2rem solid #000000;
+}
+tfoot .r2{
+    border-right: 0.2rem solid #000000;
+}
