@@ -32,7 +32,9 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 2rem 5.7rem;
+    overflow: hidden;
     position: sticky;
+  top: 0;
 }
 .intro{
     color: #FFFFFF;
